@@ -1,0 +1,227 @@
+
+SQL> @projectDBqueries.sql
+
+TYPE		     NAME
+-------------------- --------------------
+dark roasted	     Rohan Kumar
+dark roasted	     Anjali Iyer
+Mild roasted	     Rohan Kumar
+Mild roasted	     Lalith Sai Koneru
+Mild roasted	     Tanvi Mehta
+Mild roasted	     Sai Kumar
+dark roasted	     Kabir Patel
+Mild roasted	     Sneha Bhatia
+Mild roasted	     Pooja Menon
+Mild roasted	     Anjali Iyer
+Mild roasted	     Mayank Kapoor
+Mild roasted	     Rahul Thakur
+
+12 rows selected.
+
+
+NAME			       CITY		    MAX_CITY
+------------------------------ -------------------- --------
+Excelsa Chocolate	       Hyderabad		   4
+Robusta Vanilla 	       Hyderabad		   4
+Robusta Vanilla 	       Kurnool			   3
+
+
+TRANSACTION_D			    PURCHASE_COUNT
+----------------------------------- --------------
+Robusta Vanilla 				18
+Arabica Chocolate Raspberry			18
+Excelsa Hazelnut				11
+
+
+CUSTOMER_NAME			    PREFERRED_MODE_OF_PAYMENT
+----------------------------------- ------------------------------
+Guha preethi			    UPI
+Anjali Sharma			    UPI
+Annamalai			    UPI
+Khamalesh Ramesh		    UPI
+Ruthvick			    UPI
+Akshaya 			    UPI
+Keerthi 			    UPI
+Kajol Agarwal			    UPI
+Samantha			    UPI
+Rudhrav 			    UPI
+Shanthi 			    UPI
+Suneetha			    UPI
+Aarav Patel			    UPI
+Vikram Singh			    UPI
+Priya Das			    UPI
+Rohan Kumar			    UPI
+Meera Joshi			    UPI
+Ananya Choudhury		    UPI
+Rajiv Banerjee			    UPI
+Aisha Verma			    UPI
+Karan Mehra			    UPI
+Diya Khanna			    UPI
+Nikhil Sharma			    UPI
+Arnav Chatterjee		    UPI
+Deepika Nair			    UPI
+Shruti Singh			    UPI
+Rohit Srinivasan		    UPI
+Anjali Iyer			    UPI
+Yuvraj Singh			    UPI
+Tara Sharma			    UPI
+Akash Kapoor			    UPI
+Vikrant Patel			    UPI
+Tanvi Mehta			    UPI
+Devendra Singh			    UPI
+Roshni Malhotra 		    UPI
+Arvind Kumar			    UPI
+Divya Mishra			    UPI
+Kabir Patel			    UPI
+Trisha Desai			    UPI
+Vikram Mehta			    UPI
+Sushma Chowdary 		    UPI
+Sai Kumar			    UPI
+Harshitha Lingaraja		    UPI
+Kritin Reddy			    UPI
+Aishwarya Gopalakrishnan	    UPI
+Kushi Atma			    UPI
+Lakshmi Nivedita		    UPI
+Berdina Flancy			    UPI
+Felcia				    UPI
+
+49 rows selected.
+
+
+CUST_ID NAME
+------- ------------------------------
+   1001 Aarav Patel
+   1004 Priya Das
+   1009 Aditya Desai
+   1011 Rajiv Banerjee
+   1016 Avani Shah
+   1017 Karan Mehra
+   1022 Riya Singhania
+   1026 Shruti Singh
+   1030 Ritu Gupta
+   1036 Jyoti Das
+   1041 Devendra Singh
+   1047 Aditi Sharma
+   1052 Kabir Patel
+   1053 Riya Malhotra
+   1054 Armaan Gupta
+   1055 Trisha Desai
+   1060 Kritin Reddy
+   1063 Sandeep Domsetti
+   1069 Lakshmi Nivedita
+   1071 Anjali Sharma
+   1073 Felcia
+   1075 Khamalesh Ramesh
+   1078 Keerthi
+   1083 Suneetha
+
+24 rows selected.
+
+
+PURCHASE_MONTH		       NUM_CUSTOMERS
+------------------------------ -------------
+					  83
+DEC-23					  23
+JUN-23					  12
+MAR-24					  12
+OCT-23					  10
+APR-23					   9
+JUL-23					   8
+MAY-23					   7
+NOV-23					   6
+FEB-24					   6
+MAR-23					   5
+JAN-24					   3
+JAN-23					   3
+AUG-23					   3
+SEP-23					   3
+FEB-23					   2
+NOV-03					   2
+
+17 rows selected.
+
+
+COFFEE_NAME			    TOTAL_SALES COFFEE_ID
+----------------------------------- ----------- ---------
+Arabica Chocolate			    650
+Arabica Chocolate			    650       103
+Arabica Chocolate Raspberry		   2350       104
+Arabica Chocolate Raspberry		   2350
+Arabica Hazelnut			   4500       102
+Arabica Hazelnut			   4500
+Arabica Mocha				   3500
+Arabica Mocha				   3500       105
+Arabica Vanilla 			    500       101
+Arabica Vanilla 			    500
+Excelsa Chocolate			   3500
+Excelsa Chocolate			   3500       113
+Excelsa Chocolate Raspberry		    575
+Excelsa Chocolate Raspberry		    575       114
+Excelsa Hazelnut			   6985
+Excelsa Hazelnut			   6985       112
+Excelsa Mocha				    549       115
+Excelsa Mocha				    549
+Excelsa Vanilla 			    537
+Excelsa Vanilla 			    537       111
+Grand Total				    505       120
+Grand Total				    707       119
+Grand Total				    569       118
+Grand Total				   6615       117
+Grand Total				    749       116
+Grand Total				    549       115
+Grand Total				    575       114
+Grand Total				   3500       113
+Grand Total				   6985       112
+Grand Total				    537       111
+Grand Total				    729       110
+Grand Total				   4560       109
+Grand Total				   3050       108
+Grand Total				    650       107
+Grand Total				   6490       106
+Grand Total				   3500       105
+Grand Total				   2350       104
+Grand Total				    650       103
+Grand Total				   4500       102
+Grand Total				  48270
+Grand Total				    500       101
+Liberica Chocolate			    569
+Liberica Chocolate			    569       118
+Liberica Chocolate Raspberry		    707
+Liberica Chocolate Raspberry		    707       119
+Liberica Hazelnut			   6615
+Liberica Hazelnut			   6615       117
+Liberica Mocha				    505
+Liberica Mocha				    505       120
+Liberica Vanilla			    749
+Liberica Vanilla			    749       116
+Robusta Chocolate			   3050
+Robusta Chocolate			   3050       108
+Robusta Chocolate Raspberry		   4560
+Robusta Chocolate Raspberry		   4560       109
+Robusta Hazelnut			    650       107
+Robusta Hazelnut			    650
+Robusta Mocha				    729       110
+Robusta Mocha				    729
+Robusta Vanilla 			   6490       106
+Robusta Vanilla 			   6490
+
+61 rows selected.
+
+
+AGE_GROUP	     NUM_CUSTOMERS MOST_COFFEE_DRINKERS
+-------------------- ------------- --------------------
+20-29				31		      1
+30-39				28		      2
+40-49				25		      3
+0-19				15		      4
+50-59				11		      5
+
+
+PREFERRED_FLAVOR
+------------------------------
+Almond
+Tiramisu
+Caramel
+
+
+
